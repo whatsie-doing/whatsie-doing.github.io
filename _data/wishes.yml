@@ -1,0 +1,230 @@
+# <250
+lt250:
+    - title: Money
+    - title: Bookmarks
+      hidden: true
+    - title: Tennis socks
+      bought: true
+    - title: Coasters
+    - title: Xbox One Play & Charge Kit
+      image: https://dustinweb.azureedge.net/image/409013/400/320/microsoft-xbox-one-play-and-charge-kit-sort.jpg
+      price: "149"
+      link:
+        dustinhome: https://www.dustinhome.dk/product/5011103112/xbox-one-play-and-charge-kit
+        elgiganten: https://www.elgiganten.dk/product/gaming/konsoller/xbox-one-tilbehor/XONEPLAYCHKIT/xbox-one-play-charge-kit
+        pricerunner: https://www.pricerunner.dk/pl/196-3137543/Spil-tilbehoer/Microsoft-Xbox-One-Play-Charge-Kit-Sammenlign-Priser
+    - title: PlayStation Network Gift Cards
+      image: https://tubby.scene7.com/is/image/tubby/PSN200DKK?$fullsize$
+      price: "199"
+      link:
+        elgiganten: https://www.elgiganten.dk/product/gaming/spil/playstation-3-spil/PSN200DKK/playstation-network-live-card
+    - title: Stand/table for computer (with wheels?)
+      hidden: true
+    - title: Headphone hanger
+      bought: true
+      image: https://cdn.shopify.com/s/files/1/0953/2124/products/BWAVZ_Truss_Clean_00_grande.jpg?v=1451561869
+      price: "199"
+      link:
+        amazon: https://amzn.to/2fEatkg
+    - title: Sideclick Universal Remote Attachment for Apple 4K
+      hidden: true
+      image: https://cdn.shopify.com/s/files/1/1184/8816/products/01_Web_Apple_G4_large.jpg?v=1485749267
+      price: "199"
+      link:
+        american_import: https://www.sideclickremotes.com/collections/apple-tv-streaming-accessories/products/sideclick-universal-remote-attachment-for-apple-tv-gen-4-black-touchpad-remotes
+    - title: "Villy Sørensen: Ragnarok---En Gudefortælling (Book)"
+      hidden: true
+    - title: Chopsticks
+# >250
+gt250:
+    - title: Parliament Book
+      hidden: true
+      link:
+         purchase: http://www.parliamentbook.com/book
+    - title: "Spider-Man: Into the Spider-Verse: The Art of the Movie"
+      bought: true
+      image: https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/7856/9781785659461.jpg
+      price: "249"
+      link:
+          dansk_butik: https://www.saxo.com/dk/spider-man-into-the-spider-verse_ramin-zahed_hardback_9781785659461
+          book_depository: https://www.bookdepository.com/Spider-Man-Into-the-Spider-Verse-Ramin-Zahed/9781785659461
+    - title: Boxing gloves
+      hidden: true
+      price: "249"
+    - title: "League of Legends: Realms of Runeterra"
+      bought: true
+      image: https://www.imusic.dk/gfx/item/image/329/9780316497329/2019-league-of-legends-realms-of-runeterra-official-companion-paperback-book.jpg
+      price: "249"
+      link:
+        imusic: https://www.imusic.dk/books/9780316497329/2019-league-of-legends-realms-of-runeterra-official-companion-paperback-book
+        saxo: https://www.saxo.com/dk/league-of-legends-realms-of-runeterra-official-companion_riot-games_hardback_9780316497329
+    - title: Ocarina of Time Link Amiibo
+      hidden: true
+      image: https://images-na.ssl-images-amazon.com/images/I/71dG-afhpZL._SL1080_.jpg
+      price: "249"
+      link:
+        amazon: https://amzn.to/2B6pemP
+        amazon: https://amzn.to/2g5XciP
+    - title: John Wick 1 (4K)
+      hidden: true
+      image: https://images-na.ssl-images-amazon.com/images/I/51%2BCkK0MUKL.jpg
+      price: "249"
+    - title: PlayStation DualShock 4 bagknaptilføjelse
+      image: https://www.elgiganten.dk/image/dv_web_D180001002360699/129470/playstation-dualshock-4-bagknaptilfoejelse.jpg?$fullsize$
+      price: "299"
+      link:
+          elgiganten: https://www.elgiganten.dk/product/gaming/konsoller/playstation-4-ps4-tilbehor/129470/playstation-dualshock-4-bagknaptilfojelse
+    - title: Yoshi's Crafted World
+      image: https://images-na.ssl-images-amazon.com/images/I/81NWAygLTGL._AC_SL1500_.jpg
+      price: "449"
+      link:
+          elgiganten: https://www.elgiganten.dk/product/gaming/spil/nintendo-switch-spil/SWIYOSHI/yoshi-s-crafted-world-switch
+    - title: iPad Air 2 Smart Cover (RED)
+      bought: true
+      image: https://store.storeimages.cdn-apple.com/4667/as-images.apple.com/is/image/AppleInc/aos/published/images/M/R6/MR632/MR632?wid=572&hei=572&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1504640721601
+      price: "349"
+      link:
+         apple: https://www.apple.com/dk/shop/product/MR632ZM/A/smart-cover-til-ipad-productred?fnode=9a&fs=f%3Dipad6gen%26fh%3D4583%252B43dd
+    - title: PlayStation Network Gift Cards
+      image: https://tubby.scene7.com/is/image/tubby/PSN400DKK?$fullsize$
+      price: "399"
+      link:
+          elgiganten: https://www.elgiganten.dk/product/gaming/spil/playstation-3-spil/PSN400DKK/playstation-network-live-card-400-kr
+    - title: Covert Regime Change
+      hidden: true
+      image: https://imgcdn.saxo.com/_9781501730658/0x500
+      price: "399"
+      link:
+          dansk_butik: https://www.saxo.com/dk/covert-regime-change_lindsey-a-orourke_hardback_9781501730658
+    - title: Hoodies
+    - title: YubiKey 5 NFC
+      image: https://dustinweb.azureedge.net/image/470614/400/320/yubico-yubikey-5-nfc.png
+      price: "399"
+      link:
+          dustinhome: https://www.dustinhome.dk/product/5011108346/yubikey-5-nfc
+# >500
+gt500:
+    - title: The Grammar of Graphics
+      hidden: true
+      image: https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/4419/9781441920331.jpg
+      price: "549"
+      link:
+        amazon: https://amzn.to/2qfO1Dn
+        book_depository: https://www.bookdepository.com/The-Grammar-of-Graphics-Leland-Wilkinson-D-Wills-D-Rope--Norton-R-Dubbs/9781441920331
+    - title: Owning Memory
+      hidden: true
+      image: https://imgcdn.saxo.com/_9780313320088/500x0
+      price: "599"
+      link:
+        saxo: https://www.saxo.com/dk/owning-memory_jeannette-a-bastian_hardback_9780313320088
+    - title: The Art of Metal Gear Solid I-IV
+      hidden: true
+      image: https://d2lzb5v10mb0lj.cloudfront.net/covers/300/30/3001445.jpg
+      price: "599"
+      link:
+        dansk_butik: https://www.saxo.com/dk/the-art-of-metal-gear-solid-i-iv_konami_hardback_9781506705811
+        book_depository: https://www.bookdepository.com/Art-Of-Metal-Gear-Solid-I-iv-Y-Shinkawa/9781506705811
+    - title: Wacom Intuos S(mall)
+      hidden: true
+      image: https://i.computersalg.dk/digitalcontent/0/1599/15996984.jpg
+      price: "599"
+      link:
+        dansk_butik: https://www.computersalg.dk/i/4154400/wacom-intuos-s-digitizer
+    - title: Black Noctua NH-D15S AM4
+      bought: true
+      price: "699"
+      link:
+        noctua_press: https://noctua.at/en/noctua-at-computex-2018
+      # https://twitter.com/Noctua_at/status/1032728898373648386
+    - title: Apple Pencil 2
+      hidden: true
+      price: "1,049"
+      image: https://store.storeimages.cdn-apple.com/4662/as-images.apple.com/is/image/AppleInc/aos/published/images/M/K0/MK0C2/MK0C2_AV1?wid=1000&hei=1000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=DublD1
+      link:
+        apple: https://www.apple.com/dk/shop/product/MU8F2ZM/A/apple-pencil-2-generation
+    - title: Nyt armatur/skærme/pærer til lamper
+      hidden: true
+    - title: Subwoofer
+      hidden: true
+    - title: Sports bag for gym clothes
+# >1000
+gt1000:
+    - title: Canon CanoScan Lide 220
+      hidden: true
+    - title: Elgato Stream Deck XL
+      bought: true
+      image: https://www.elgato.com/sites/default/files/2019-05/image-tech-spec-stream-deck-xl.png
+      price: "???"
+      link:
+        elgato: https://www.elgato.com/en/gaming/stream-deck-xl
+    - title: Apple TV 4K (32GB)
+      bought: true
+      image: https://store.storeimages.cdn-apple.com/4662/as-images.apple.com/is/image/AppleInc/aos/published/images/a/pp/apple/tv/apple-tv-hero-select-201709?wid=538&amp;amp;hei=535&amp;amp;fmt=jpeg&amp;amp;qlt=95&amp;amp;op_sharpen=0&amp;amp;resMode=bicub&amp;amp;op_usm=0.5,0.5,0,0&amp;amp;iccEmbed=0&amp;amp;layer=comp&amp;amp;.v=1504814112595
+      price: "1,499"
+      link:
+        apple: https://www.apple.com/dk/shop/buy-tv/apple-tv-4k/32-gb
+    - title: Clothes by Rains
+      hidden: true
+      link:
+        rains: https://dk.rains.com
+    - title: Højere TV-bord, højde@~55cm, bredde@115-140cm (mindst-max)
+    - title: WD Blue 6TB
+      bought: true
+      image: https://dustinweb.azureedge.net/image/297754/960/720/wd-blue-6tb-35-serial-ata-600.jpg
+      price: "1,629"
+      link:
+        dustinhome: https://www.dustinhome.dk/product/5011119851/blue-wd60ezaz
+    - title: New glass lenses
+      bought: true
+    - title: Cordless electric drill (Dewalt DCD795D2)
+      image: https://www.pricerunner.dk/product/640x640/1554056937/Dewalt-DCD795D2-(2x2.0Ah).jpg
+      price: "1,599"
+      link:
+          pricerunner: https://www.pricerunner.dk/pl/1258-2929762/Boremaskiner-og-Skruemaskiner/Dewalt-DCD795D2-%282x2.0Ah%29-Sammenlign-Priser
+    - title: New keyboard
+      bought: true
+    - title: Wireless numpad
+      hidden: true
+    - title: Ny lænestol
+    - title: Weighted blankets (vægtede dyner/tæpper)
+      bought: true
+gt2500:
+    - title: Nintendo Switch (red-blue version)
+      bought: true
+      image: https://dustinweb.azureedge.net/image/244601/960/720/nintendo-switch-with-neon-joy-con-32gb.jpg
+      price: "2,499"
+      link:
+        dustinhome: https://www.dustinhome.dk/product/5011007342/switch-with-neon-joy-con
+        elgiganten: https://www.elgiganten.dk/product/gaming/konsoller/SWI32GBNEON/nintendo-switch-konsol-neonbla-og-neonrod-joy-con
+        amazon: https://amzn.to/2zXQrZy
+    - title: Ørgreen sunglasses
+      hidden: true
+      link:
+        oergreen: https://www.orgreenoptics.com/playground/quantum-sun/
+#   - title: Glasses
+    - title: Receiver (UHD, HDR10+, HDMI 2.1 VRR)
+      price: "3,999"
+      hidden: true
+      link:
+        wirecutter: http://thewirecutter.com/reviews/best-receiver
+        flatpanels: https://www.flatpanelshd.com/news.php?subaction=showfull&id=1530781197
+    - title: New PC monitor
+    - title: New GPU
+    - title: New phone?
+      hidden: true
+    - title: New sound system with receiver
+    - title: Synology NAS
+      hidden: true
+    - title: Allergy vaccination pills
+    - title: Silent air purifier for bedroom
+      price: 3200
+      image: https://www.blueair.com/dw/image/v2/AASF_PRD/on/demandware.static/-/Sites-blueair-eu-master-catalog/default/dwe1a9f2da/air_purifiers/classic/405/large/Blueair_Classic_405_450x450px.jpg
+      link:
+        power: https://www.power.dk/hus-og-fritid/klima-og-ventilation/luftrensere/blueair-classic-405-luftrenser/p-427245
+        punkt1: https://www.punkt1.dk/hus-og-fritid/klima-og-ventilation/luftrensere/blueair-classic-405-luftrenser/p-427245
+
+# [Incase 13" ICON Sleeve med Tensaerlite til MacBook Air][incase] {500}
+#
+# * Citizen Messenger bag (red)
+#     - `[x]` [Mini][] ($120)
+#     - `[ ]` [Regular][]
