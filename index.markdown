@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Wishlist
+title: DRAFT - DO NOT BUY THIS
 enable_charities: true
 ---
 * TOC
