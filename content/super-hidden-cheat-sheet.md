@@ -6,29 +6,12 @@ Status: hidden
 
 # Ultimate Pelican & Git Cheat Sheet
 
-This hidden page serves as the master reference guide for managing, writing, and publishing to this blog.
+This page is cobbled together from a few poorly-attributed (by me) places so I can try to keep track of this stuff. 
 
 <!-- more -->
 
----
+And, yes, to my shame some of it did come via Google's AI suggestions. 
 
-## Clean Directory Structure
-Your Pelican blog directory should look exactly like this. All old Jekyll remnants have been removed:
-
-```txt
-your-repo-name/
-├── .github/
-│   └── workflows/
-│       └── pelican.yml      # Automated deployment instructions
-├── content/
-│   ├── CNAME                # Contains only: my.domain
-│   ├── .nojekyll            # Tells GitHub to bypass Jekyll
-│   └── markdown-cheat-sheet.md
-├── pelicanconf.py           # Local settings (SITEURL = '')
-├── publishconf.py           # Live settings (SITEURL = 'https://my.domain')
-└── requirements.txt         # Lists python dependencies (pelican, markdown)
-
-```
 ---
 
 ## Git Branching & Deployment Workflow
