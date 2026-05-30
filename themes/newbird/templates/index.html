@@ -47,17 +47,15 @@
     <p class="post-date">{{ article.date.strftime('%B %d, %Y') }}</p>
     
     <div class="entry-content">
-        {# Displays the summary text or the body content up to your <!-- more --> tag #}
+        {# Renders your multi-line summary header perfectly #}
         {{ article.summary }}
         
-        {# Safely checks for EITHER inline 'more' break tags OR custom summary metadata #}
-        {% if article.has_summary or article.summary %}
-            <p>
-                <a class="read-more" href="/{{ article.url }}">
-                    Click to continue...
-                </a>
-            </p>
-        {% endif %}
+        {# Automatically appends the link because you provided a manual summary #}
+        <p>
+            <a class="read-more" href="/{{ article.url }}">
+                Read the rest of this post...
+            </a>
+        </p>
     </div>
 </div>
 {% endfor %}

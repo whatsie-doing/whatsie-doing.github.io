@@ -8,11 +8,14 @@ Status: hidden
 
 This hidden page serves as the master reference guide for managing, writing, and publishing to this blog.
 
+<!-- more -->
+
 ---
 
 ## Clean Directory Structure
 Your Pelican blog directory should look exactly like this. All old Jekyll remnants have been removed:
 
+```txt
 your-repo-name/
 ├── .github/
 │   └── workflows/
@@ -25,6 +28,7 @@ your-repo-name/
 ├── publishconf.py           # Live settings (SITEURL = 'https://my.domain')
 └── requirements.txt         # Lists python dependencies (pelican, markdown)
 
+```
 ---
 
 ## Git Branching & Deployment Workflow
@@ -33,20 +37,24 @@ Because this is a personal github.io page, the repository splits raw source code
 
 ### 1. Daily Writing Setup
 Before editing or adding posts, verify you are working on the source branch:
+```zsh
 git checkout source
+```
 
 ### 2. Save, Compile, and Publish Live
 When you are ready to push your changes to your custom domain, run these three commands in order from your root folder:
+```zsh
 git add .
 git commit -m "Update blog content and reference sheets"
 git push origin source
-
+```
 ---
 
 ## Pelican Post Header Template
 
 Every new .md file created inside the content/ folder must start with this text metadata block at the very top. Note that Pelican does NOT use triple dashes.
 
+```md
 Title: Your Post Title Here
 Date: 2026-05-30 12:00
 Category: Tech
@@ -54,19 +62,20 @@ Slug: your-post-slug-for-the-url
 Status: hidden  *(Optional: Remove this line to make the post public)*
 
 Your content starts here...
+```
 
 ### Core Metadata Fields:
-* Title: The display name of your article.
-* Date: Formatted as YYYY-MM-DD HH:MM.
-* Category: Organizes your post into site sections.
-* Slug: Controls the URL string (e.g., slug: my-post becomes my-post.html).
-* Status: Set to hidden to restrict access to direct URL links only (excludes it from the homepage index and pagination).
+* `Title: `The display name of your article.
+* `Date: `Formatted as YYYY-MM-DD HH:MM.
+* `Category: `Organizes your post into site sections.
+* `Slug: `Controls the URL string (e.g., slug: my-post becomes my-post.html).
+* `Status: `Set to hidden to restrict access to direct URL links only (excludes it from the homepage index and pagination).
 
 ---
 
 ## Markdown Syntax Reference
 
-### Headers
+```md
 # H1 Header
 ## H2 Header
 ### H3 Header
@@ -92,3 +101,4 @@ Your content starts here...
 To display inline code within a sentence, wrap it in single backticks: `print("Hello World")`.
 
 To display a multi-line block of code, wrap it in triple backticks and specify the programming language for syntax highlighting.
+```

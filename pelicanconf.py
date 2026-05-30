@@ -12,7 +12,7 @@ PROJECTS = []
 HOMEPAGE_ARTICLE_SUMMARY_SPLIT = True
 
 # Forces the home feed to show actual written summaries/excerpts instead of a title archive list
-SUMMARY_MAX_LENGTH = 50
+SUMMARY_MAX_LENGTH = None
 
 PATH = "content"
 
@@ -26,6 +26,11 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+PLUGINS = ['minchin.pelican.plugins.summary']
+
+# Pelican Summary plugin overrides
+SUMMARY_END_MARKER = '<!-- more -->'
 
 MARKDOWN = {
     'extension_configs': {
