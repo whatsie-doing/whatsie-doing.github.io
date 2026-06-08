@@ -1,3 +1,4 @@
 pelican
 markdown
 minchin.pelican.plugins.summary
+pelican-yaml-metadata

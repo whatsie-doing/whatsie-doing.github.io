@@ -71,14 +71,8 @@ NOTEBOOK_DIR = 'notebooks'
 STATIC_PATHS = ['images', 'code', 'notebooks', 'extra', 'data']
 EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},}
 
-#### Analytics
-GOOGLE_ANALYTICS = 'UA-34295039-1'
-DOMAIN = "gregreda.com"
-
 # Other
 CACHE_CONTENT = False
 AUTORELOAD_IGNORE_CACHE = True
 
-# Social Sharing
-TWITTER_CARDS = True
-TWITTER_NAME = "gjreda"
+# Removed Greg's Google Analytics and Twitter blocks here. 

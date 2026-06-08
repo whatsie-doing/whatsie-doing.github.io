@@ -23,6 +23,11 @@
   ================================================== -->
   <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+  <style>
+    a {
+        color: rgb(0, 51, 160); /* Creates a Saratoga blue link. I hope. */
+    }
+    </style>
 
   {% if FEED_ALL_ATOM %}
   <!-- Feeds
@@ -48,6 +53,10 @@
 	================================================== -->
 	<link rel="shortcut icon" href="{{ FAVICON_IMAGE }}">
 	<link rel="apple-touch-icon" href="{{ LOGO_IMAGE }}">
+
+  {% if page and page.template == 'filament-page' %}
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/filaments.css">
+  {% endif %}
 
 </head>
 <body>

@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{# ── Compute low-stock list (net weight ≤ threshold, no spares) ── #}
+{% set low_stock = [] %}
+{% for f in page.filaments %}
+  {% set tare = f.spool_tare_g | default(FILAMENT_TARE_G) %}
+  {% set net  = f.remaining_gross_g - tare %}
+  {% if net <= FILAMENT_LOW_THRESHOLD_G and (f.spares | default(0)) == 0 %}
+    {% set _ = low_stock.append(f.name) %}
+  {% endif %}
+{% endfor %}
+
+<article class="filament-inventory">
+  <h1>{{ page.title }}</h1>
+
+  {# ── Low-stock banner ── #}
+  {% if low_stock %}
+  <div class="filament-alert">
+    ⚠ Running low (under {{ FILAMENT_LOW_THRESHOLD_G }}g, no spares):
+    {{ low_stock | join(', ') }}
+  </div>
+  {% endif %}
+
+  {# ── Filament grid, sorted by color family then name ── #}
+  <div class="filament-grid">
+    {% for f in page.filaments | sort(attribute='color_family,name') %}
+      {% set tare    = f.spool_tare_g | default(FILAMENT_TARE_G) %}
+      {% set net     = f.remaining_gross_g - tare %}
+      {% if net < 0 %}
+        {% set net = 0 %}
+      {% endif %}
+      {% set pct     = [[(net / FILAMENT_FULL_G * 100) | round | int, 0] | max, 100] | min %}
+      {% set spares  = f.spares | default(0) %}
+      {% set custom_tare = f.spool_tare_g is defined %}
+
+      <div class="filament-card {% if net <= 100 and spares == 0 %}filament-card--critical{% endif %}">
+
+        <div class="filament-image-wrap">
+          <img src="{{ SITEURL }}{{ f.image }}" alt="{{ f.name }}" loading="lazy">
+          {% if spares > 0 %}
+            <span class="filament-spare-badge">+{{ spares }} spare{{ 's' if spares > 1 }}</span>
+          {% endif %}
+        </div>
+
+        <div class="filament-info">
+          <span class="filament-family">{{ f.color_family }}</span>
+          <h3 class="filament-name">{{ f.name }}</h3>
+          <p class="filament-sku">{{ f.sku }}</p>
+        </div>
+
+        <div class="filament-footer">
+          <div class="filament-remaining-row">
+            <span class="filament-remaining-label">Active spool</span>
+            <span class="filament-remaining-g">
+              {% if custom_tare %}~{% endif %}{{ net }}g
+            </span>
+          </div>
+          <div class="filament-bar-track">
+            <div class="filament-bar-fill
+              {% if pct <= 10 %}filament-bar--critical
+              {% elif pct <= 20 %}filament-bar--low
+              {% endif %}"
+              style="width: {{ pct }}%">
+            </div>
+          </div>
+          <a class="filament-buy-link" href="{{ f.purchase_url }}"
+             target="_blank" rel="noopener">Buy more ↗</a>
+        </div>
+
+      </div>
+    {% endfor %}
+  </div>
+
+  {# ── Auto-generated reorder items + manual shopping list ── #}
+  <div class="filament-body">
+    {% if low_stock %}
+    <h2>Shopping list</h2>
+    <ul>
+      {% for name in low_stock %}
+        <li>{{ name }} <em>(auto — under {{ FILAMENT_LOW_THRESHOLD_G }}g, no spares)</em></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {{ page.content }}
+  </div>
+
+</article>
+
+{% endblock %}

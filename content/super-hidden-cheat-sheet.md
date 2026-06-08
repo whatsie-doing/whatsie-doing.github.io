@@ -83,12 +83,11 @@ While testing format changes, it's handy to keep the http server running locally
 ```python
 python -m http.server 8000 --directory output 
 ```
+I prefer this over `pelican --listen output` because I can check the mobile interface from my phone at the same time. 
 
 Every time I save some tweak or another, I run the following
 ```zsh
-rm -rf output/*
-rm -rf cache/*
-pelican content -s pelicanconf.py
+rm -rf output/* && rm -rf cache/* && pelican content -s pelicanconf.py
 ```
 It feels entirely likely that something about this is overkill, but it's the steps I started with so it's the steps I continue with. 
 
@@ -96,7 +95,7 @@ It feels entirely likely that something about this is overkill, but it's the ste
 When it's time to be done tweaking things and just commit for once:
 ```zsh
 git add .
-git commit -m "Insufficient summary here"
+git commit -m "Bug Fixes and Performance Improvements"
 git push origin source
 ```
 
