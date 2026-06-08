@@ -291,8 +291,8 @@ filaments:
     remaining_gross_g: 863
     spares: 0
 
-  - name: Mistletoe Green
-    color_family: Green
+  - name: Dawn Radiance
+    color_family: Multicolor
     sku: "PLA Silk 13912"
     image: "/images/filaments/bambu-13912.png"
     purchase_url: https://us.store.bambulab.com/search?q=13912
