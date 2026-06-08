@@ -47,8 +47,7 @@ filaments:
     purchase_url: https://us.store.bambulab.com/search?q=10605
     remaining_gross_g: 311
     spool_tare_g: 167        # Printed a hex spool
-
-    spares: 0
+    spares: 1
 
   - name: Jade White
     color_family: White
@@ -291,10 +290,17 @@ filaments:
     purchase_url: https://us.store.bambulab.com/search?q=10502
     remaining_gross_g: 863
     spares: 0
+
+  - name: Mistletoe Green
+    color_family: Green
+    sku: "PLA Silk 13912"
+    image: "/images/filaments/bambu-13912.png"
+    purchase_url: https://us.store.bambulab.com/search?q=13912
+    remaining_gross_g: 0
+    spares: 1
 ---
 
 **Things to reorder or pick up:**
 
 - Extra spools
-- Silica gel desiccant packs × 10
-- Bambu PLA Matte Charcoal — want to try for miniatures
+- An H2C (I wish)
