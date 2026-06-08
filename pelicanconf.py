@@ -75,3 +75,53 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+#######
+# Function to sort filaments by HSV
+import colorsys
+from itertools import groupby
+
+def group_by_material_and_sort_by_hue(filament_list):
+    def get_color_sort_key(item):
+        hex_val = item.get('hex', '000000')
+        hex_str = str(hex_val).lstrip('#')
+        try:
+            r, g, b = tuple(int(hex_str[i:i+2], 16) for i in (0, 2, 4))
+            h, s, v = colorsys.rgb_to_hsv(r/255.0, g/255.0, b/255.0)
+            
+            # Check for neutral/achromatic colors (Black, White, Gray)
+            # Thresholds can be adjusted if a very faint tint is getting misclassified
+            if s < 0.15 or v < 0.15:
+                # Group number 1: Neutrals (sorted by brightness/value)
+                # We use a tuple (group_id, sort_value)
+                return (1, v) 
+            else:
+                # Group number 0: Vibrant colors (sorted by Hue rainbow order)
+                return (0, h)
+                
+        except (ValueError, IndexError):
+            return (1, 0)  # Fallback for malformed hex strings (defaults to black)
+
+    # Sort by material name string, then by our custom color tuple
+    # Because (0, h) comes before (1, v), colors will always print before neutrals
+    sorted_raw = sorted(
+        filament_list, 
+        key=lambda x: (x.get('material', 'Unknown'), get_color_sort_key(x))
+    )
+
+    # Group them by material for the nested Jinja loop
+    grouped_data = []
+    for material, group in groupby(sorted_raw, key=lambda x: x.get('material', 'Unknown')):
+        grouped_data.append({
+            'material': material,
+            'items': list(group)
+        })
+        
+    return grouped_data
+
+JINJA_FILTERS = {
+    'group_filaments': group_by_material_and_sort_by_hue
+}
+
+###########
+# End filament function

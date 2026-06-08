@@ -9,7 +9,9 @@ filaments:
 
   - name: Pumpkin Orange
     color_family: Orange
-    sku: "PLA Basic 10301"
+    sku: 10301
+    material: "PLA Basic"
+    hex: FF9016
     image: "/images/filaments/bambu-10301.png"
     purchase_url: https://us.store.bambulab.com/search?q=10301
     remaining_gross_g: 300
@@ -17,7 +19,9 @@ filaments:
 
   - name: Black
     color_family: Black
-    sku: "PLA Basic 10101"
+    sku: 10101
+    material: "PLA Basic"
+    hex: 000000
     image: "/images/filaments/bambu-10101.png"
     purchase_url: https://us.store.bambulab.com/search?q=10101
     remaining_gross_g: 1230
@@ -26,6 +30,8 @@ filaments:
   - name: Black PETG
     color_family: Black
     sku: "SUNLU PETG"
+    material: "PETG"
+    hex: 000000
     image: "/images/filaments/sunlu-petg-black.png"
     purchase_url: https://www.amazon.com/dp/B0DJS3PJVX
     remaining_gross_g: 1085
@@ -34,7 +40,9 @@ filaments:
 
   - name: Bambu Green
     color_family: Green
-    sku: "PLA Basic 10501"
+    sku: 10501
+    material: "PLA Basic"
+    hex: 00AE42
     image: "/images/filaments/bambu-10501.png"
     purchase_url: https://us.store.bambulab.com/search?q=10501
     remaining_gross_g: 0
@@ -42,7 +50,9 @@ filaments:
 
   - name: Turquoise
     color_family: Blue-Green
-    sku: "PLA Basic 10605"
+    sku: 10605
+    material: "PLA Basic"
+    hex: 00B1B7
     image: "/images/filaments/bambu-10605.png"
     purchase_url: https://us.store.bambulab.com/search?q=10605
     remaining_gross_g: 311
@@ -51,7 +61,9 @@ filaments:
 
   - name: Jade White
     color_family: White
-    sku: "PLA Basic 10100"
+    sku: 10100
+    material: "PLA Basic"
+    hex: FFFFFF
     image: "/images/filaments/bambu-10100.png"
     purchase_url: https://us.store.bambulab.com/search?q=10100
     remaining_gross_g: 1000
@@ -59,7 +71,9 @@ filaments:
 
   - name: Beige
     color_family: Tan
-    sku: "PLA Basic 10201"
+    sku: 10201
+    material: "PLA Basic"
+    hex: F7E6DE
     image: "/images/filaments/bambu-10201.png"
     purchase_url: https://us.store.bambulab.com/search?q=10201
     remaining_gross_g: 1000
@@ -67,7 +81,9 @@ filaments:
 
   - name: Desert Tan
     color_family: Tan
-    sku: "PLA Basic 11401"
+    sku: 11401
+    material: "PLA Matte"
+    hex: E8DBB7
     image: "/images/filaments/bambu-11401.png"
     purchase_url: https://us.store.bambulab.com/search?q=11401
     remaining_gross_g: 0
@@ -75,7 +91,9 @@ filaments:
 
   - name: Blue
     color_family: Blue
-    sku: "PLA Basic 10601"
+    sku: 10601
+    material: "PLA Basic"
+    hex: 0A2989
     image: "/images/filaments/bambu-10601.png"
     purchase_url: https://us.store.bambulab.com/search?q=10601
     remaining_gross_g: 0
@@ -83,7 +101,9 @@ filaments:
 
   - name: Cobalt Blue
     color_family: Blue
-    sku: "PLA Basic 10604"
+    sku: 10604
+    material: "PLA Basic"
+    hex: 0056B8
     image: "/images/filaments/bambu-10604.png"
     purchase_url: https://us.store.bambulab.com/search?q=10604
     remaining_gross_g: 1000
@@ -91,7 +111,9 @@ filaments:
 
   - name: Marine Blue Matte
     color_family: Blue
-    sku: "PLA Matte 11600"
+    sku: 11600
+    material: "PLA Matte"
+    hex: 0078BF
     image: "/images/filaments/bambu-11600.png"
     purchase_url: https://us.store.bambulab.com/search?q=11600
     remaining_gross_g: 0
@@ -99,7 +121,9 @@ filaments:
 
   - name: Matte Dark Blue
     color_family: Blue
-    sku: "PLA Matte 11602"
+    sku: 11602
+    material: "PLA Matte"
+    hex: 042F56
     image: "/images/filaments/bambu-11602.png"
     purchase_url: https://us.store.bambulab.com/search?q=11602
     remaining_gross_g: 0
@@ -107,7 +131,9 @@ filaments:
 
   - name: Blue Gray
     color_family: Gray
-    sku: "PLA Matte 10602"
+    sku: 10602
+    material: "PLA Basic"
+    hex: 5B6579
     image: "/images/filaments/bambu-10602.png"
     purchase_url: https://us.store.bambulab.com/search?q=10602
     remaining_gross_g: 0
@@ -115,7 +141,9 @@ filaments:
 
   - name: Blue Hawaii
     color_family: Blue-Green
-    sku: "PLA Silk 13904"
+    sku: 13904
+    material: "PLA Silk Multicolor"
+    hex: 60A4E8
     image: "/images/filaments/bambu-13904.png"
     purchase_url: https://us.store.bambulab.com/search?q=13904
     remaining_gross_g: 1000
@@ -123,7 +151,9 @@ filaments:
 
   - name: Brown
     color_family: Orange
-    sku: "PLA Basic 10800"
+    sku: 10800
+    material: "PLA Basic"
+    hex: 9D432C
     image: "/images/filaments/bambu-10800.png"
     purchase_url: https://us.store.bambulab.com/search?q=10800
     remaining_gross_g: 0
@@ -131,7 +161,9 @@ filaments:
 
   - name: Cyan
     color_family: Blue
-    sku: "PLA Basic 10603"
+    sku: 10603
+    material: "PLA Basic"
+    hex: 0086D6
     image: "/images/filaments/bambu-10603.png"
     purchase_url: https://us.store.bambulab.com/search?q=10603
     remaining_gross_g: 1000
@@ -139,7 +171,9 @@ filaments:
 
   - name: Gold
     color_family: Yellow
-    sku: "PLA Basic 10401"
+    sku: 10401
+    material: "PLA Basic"
+    hex: E4BD68
     image: "/images/filaments/bambu-10401.png"
     purchase_url: https://us.store.bambulab.com/search?q=10401
     remaining_gross_g: 0
@@ -147,7 +181,9 @@ filaments:
 
   - name: Gold (Silk+)
     color_family: Yellow
-    sku: "PLA Silk+ 13405"
+    sku: 13405
+    material: "PLA Silk"
+    hex: F4A925
     image: "/images/filaments/bambu-13405.png"
     purchase_url: https://us.store.bambulab.com/search?q=13405
     remaining_gross_g: 1000
@@ -155,7 +191,9 @@ filaments:
 
   - name: Gray
     color_family: Gray
-    sku: "PLA Basic 10103"
+    sku: 10103
+    material: "PLA Basic"
+    hex: "8E9089"
     image: "/images/filaments/bambu-10103.png"
     purchase_url: https://us.store.bambulab.com/search?q=10103
     remaining_gross_g: 1000
@@ -163,15 +201,19 @@ filaments:
 
   - name: Light Gray
     color_family: Gray
-    sku: "PLA Basic 10104"
+    sku: 10104
+    material: "PLA Basic"
+    hex: D1D3D5
     image: "/images/filaments/bambu-10104.png"
     purchase_url: https://us.store.bambulab.com/search?q=10104
     remaining_gross_g: 0
     spares: 1
 
-  - name: Matte Gray
+  - name: Charcoal
     color_family: Gray
-    sku: "PLA Matte 11101"
+    sku: 11101
+    material: "PLA Matte"
+    hex: 000000
     image: "/images/filaments/bambu-11101.png"
     purchase_url: https://us.store.bambulab.com/search?q=11101
     remaining_gross_g: 1000
@@ -179,7 +221,9 @@ filaments:
 
   - name: Magenta
     color_family: Pink
-    sku: "PLA Basic 10202"
+    sku: 10202
+    material: "PLA Basic"
+    hex: EC008C
     image: "/images/filaments/bambu-10202.png"
     purchase_url: https://us.store.bambulab.com/search?q=10202
     remaining_gross_g: 0
@@ -187,7 +231,9 @@ filaments:
 
   - name: Mandarin Orange
     color_family: Orange
-    sku: "PLA Matte 11300"
+    sku: 11300
+    material: "PLA Matte"
+    hex: F99963
     image: "/images/filaments/bambu-11300.png"
     purchase_url: https://us.store.bambulab.com/search?q=11300
     remaining_gross_g: 0
@@ -195,7 +241,9 @@ filaments:
 
   - name: Translucent Orange
     color_family: Orange
-    sku: "PETG Trans. 32300"
+    sku: 32300
+    material: "PETG"
+    hex: FF911A
     image: "/images/filaments/bambu-32300.png"
     purchase_url: https://us.store.bambulab.com/search?q=32300
     remaining_gross_g: 1000
@@ -203,7 +251,9 @@ filaments:
 
   - name: Pink
     color_family: Pink
-    sku: "PLA Basic 10203"
+    sku: 10203
+    material: "PLA Basic"
+    hex: F55A74
     image: "/images/filaments/bambu-10203.png"
     purchase_url: https://us.store.bambulab.com/search?q=10203
     remaining_gross_g: 1000
@@ -211,7 +261,9 @@ filaments:
 
   - name: Iron Gray Metallic
     color_family: Gray
-    sku: "PLA Metal 13100"
+    sku: 13100
+    material: "PLA Metal"
+    hex: 43403D
     image: "/images/filaments/bambu-13100.png"
     purchase_url: https://us.store.bambulab.com/search?q=13100
     remaining_gross_g: 504
@@ -219,7 +271,9 @@ filaments:
 
   - name: Glow Blue
     color_family: Glow
-    sku: "PLA Glow 15600"
+    sku: 15600
+    material: "PLA Glow"
+    hex: 7AC0E9
     image: "/images/filaments/bambu-15600.png"
     purchase_url: https://us.store.bambulab.com/search?q=15600
     remaining_gross_g: 0
@@ -227,7 +281,9 @@ filaments:
 
   - name: Purple
     color_family: Purple
-    sku: "PLA Basic 10700"
+    sku: 10700
+    material: "PLA Basic"
+    hex: 5E43B7
     image: "/images/filaments/bambu-10700.png"
     purchase_url: https://us.store.bambulab.com/search?q=10700
     remaining_gross_g: 1000
@@ -235,7 +291,9 @@ filaments:
 
   - name: Candy Red
     color_family: Red
-    sku: "PLA Silk+ 13205"
+    sku: 13205
+    material: "PLA Silk"
+    hex: D02727
     image: "/images/filaments/bambu-13205.png"
     purchase_url: https://us.store.bambulab.com/search?q=13205
     remaining_gross_g: 0
@@ -243,7 +301,9 @@ filaments:
 
   - name: Red
     color_family: Red
-    sku: "PLA Basic 10200"
+    sku: 10200
+    material: "PLA Basic"
+    hex: C12E1F
     image: "/images/filaments/bambu-10200.png"
     purchase_url: https://us.store.bambulab.com/search?q=10200
     remaining_gross_g: 620
@@ -252,7 +312,9 @@ filaments:
 
   - name: Silver
     color_family: Gray
-    sku: "PLA Basic 10102"
+    sku: 10102
+    material: "PLA Basic"
+    hex: A6A9AA
     image: "/images/filaments/bambu-10102.png"
     purchase_url: https://us.store.bambulab.com/search?q=10102
     remaining_gross_g: 1032
@@ -260,7 +322,9 @@ filaments:
 
   - name: White Marble
     color_family: White
-    sku: "PLA Marble 13103"
+    sku: 13103
+    material: "PLA Marble"
+    hex: F7F3F0
     image: "/images/filaments/bambu-13103.png"
     purchase_url: https://us.store.bambulab.com/search?q=13103
     remaining_gross_g: 306
@@ -268,7 +332,9 @@ filaments:
 
   - name: Matte Lemon Yellow
     color_family: Yellow
-    sku: "PLA Matte 11400"
+    sku: 11400
+    material: "PLA Matte"
+    hex: F7D959
     image: "/images/filaments/bambu-11400.png"
     purchase_url: https://us.store.bambulab.com/search?q=11400
     remaining_gross_g: 1159
@@ -277,7 +343,9 @@ filaments:
 
   - name: Sunflower Yellow
     color_family: Yellow
-    sku: "PLA Basic 10402"
+    sku: 10402
+    material: "PLA Basic"
+    hex: F4EE2A
     image: "/images/filaments/bambu-10402.png"
     purchase_url: https://us.store.bambulab.com/search?q=10402
     remaining_gross_g: 545
@@ -285,7 +353,9 @@ filaments:
 
   - name: Mistletoe Green
     color_family: Green
-    sku: "PLA Basic 10502"
+    sku: 10502
+    material: "PLA Basic"
+    hex: 3F8E43
     image: "/images/filaments/bambu-10502.png"
     purchase_url: https://us.store.bambulab.com/search?q=10502
     remaining_gross_g: 863
@@ -293,14 +363,46 @@ filaments:
 
   - name: Dawn Radiance
     color_family: Multicolor
-    sku: "PLA Silk 13912"
+    sku: 13912
+    material: "PLA Silk Multicolor"
+    hex: EC984C
     image: "/images/filaments/bambu-13912.png"
     purchase_url: https://us.store.bambulab.com/search?q=13912
     remaining_gross_g: 0
     spares: 1
+
+  - name: Bright Green
+    color_family: Green
+    sku: 10503
+    material: "PLA Basic"
+    hex: BECF00
+    image: "/images/filaments/bambu-10503.png"
+    purchase_url: https://us.store.bambulab.com/search?q=10503
+    remaining_gross_g: 0
+    spares: 1
+
+  - name: Orange
+    color_family: Orange
+    sku: 10300
+    material: "PLA Basic"
+    hex: FF6A13
+    image: "/images/filaments/bambu-10300.png"
+    purchase_url: https://us.store.bambulab.com/search?q=10300
+    remaining_gross_g: 0
+    spares: 1
+
+  - name: Maroon Red
+    color_family: Red
+    sku: 10205
+    material: "PLA Basic"
+    hex: 9D2235
+    image: "/images/filaments/bambu-10205.png"
+    purchase_url: https://us.store.bambulab.com/search?q=10205
+    remaining_gross_g: 1000
+    spares: 0
 ---
 
 **Things to reorder or pick up:**
 
 - Extra spools
-- An H2C (I wish)
+- Indigo purple?
