@@ -402,7 +402,20 @@ filaments:
     spares: 0
 ---
 
-**Things to reorder or pick up:**
+# Reminders
 
-- Extra spools
-- Indigo purple?
+## Buy
+
+- extra spools
+- puck light for Spaceship Earth
+- PLA Wood
+- Indigo purple
+
+## Print
+
+- Gridfinity for metric tape measure
+- Gridfinity to hold employee pins at the back of the drawer
+- More dry box spool holders
+- [PTFE Tool Remover](https://makerworld.com/en/models/2492138-ez-a1-ptfe-remover-pro#profileId-2738639)
+- [Horizontal Switch Dock](https://makerworld.com/en/models/2280420-nintendoswitch2horizontaldock_raised-logo#profileId-2486688)
+- [Please be patient...](https://makerworld.com/en/models/2148589-please-be-patient-i-m-from-the-1900-s-ot-sign#profileId-2328054)
