@@ -1,6 +1,3 @@
-# "What color do you want?"
-"What do you have?"
-"...a *problem*."
 ---
 Title: Filament Inventory
 Template: filament-page
@@ -330,7 +327,7 @@ filaments:
     hex: F7F3F0
     image: "/images/filaments/bambu-13103.png"
     purchase_url: https://us.store.bambulab.com/search?q=13103
-    remaining_gross_g: 0
+    remaining_gross_g: 306
     spares: 1
 
   - name: Matte Lemon Yellow
@@ -409,13 +406,3 @@ filaments:
 
 - Extra spools
 - Indigo purple?
-- PLA wood if it's available
-- the puck light for the Spaceship Earth print
-
-**Things I keep forgetting I want to print:**
-- Gridfinity for metric tape measure
-- Gridfinity to hold employee pins at the back of the drawer
-- More dry box spool holders
-- [PTFE Tool Remover](https://makerworld.com/en/models/2492138-ez-a1-ptfe-remover-pro#profileId-2738639)
-- [Horizontal Switch Dock](https://makerworld.com/en/models/2280420-nintendoswitch2horizontaldock_raised-logo#profileId-2486688)
-- [Please be patient...](https://makerworld.com/en/models/2148589-please-be-patient-i-m-from-the-1900-s-ot-sign#profileId-2328054)
