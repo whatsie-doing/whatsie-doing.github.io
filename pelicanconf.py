@@ -47,8 +47,9 @@ MARKDOWN = {
 STATIC_PATHS = ['images']
 
 # Default empty-spool tare weight in grams.
-# Bambu spools are ~230g empty. Override per-filament for other brands.
-FILAMENT_TARE_G = 230
+# Bambu spools are ~230g empty. 
+# Override per-filament for other brands.
+FILAMENT_TARE_G = 250
 
 # Net weight below which a spool (with no spares) triggers a reorder warning.
 FILAMENT_LOW_THRESHOLD_G = 200

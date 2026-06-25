@@ -24,7 +24,7 @@
   {# ── Low-stock banner ── #}
   {% if low_stock %}
   <div class="filament-alert">
-    ⚠ Running low (under {{ FILAMENT_LOW_THRESHOLD_G }}g, no spares):
+    ⚠ Running low (under {{ FILAMENT_LOW_THRESHOLD_G }}g, no refills):
     {{ low_stock | join(', ') }}
   </div>
   {% endif %}
@@ -50,7 +50,7 @@
             <div class="filament-image-wrap">
               <img src="{{ SITEURL }}{{ f.image }}" alt="{{ f.name }}" loading="lazy">
               {% if spares > 0 %}
-                <span class="filament-spare-badge">+{{ spares }} spare{{ 's' if spares > 1 }}</span>
+                <span class="filament-spare-badge">+{{ spares }} refill{{ 's' if spares > 1 }}</span>
               {% endif %}
             </div>
 

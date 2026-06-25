@@ -25,7 +25,7 @@ filaments:
     image: "/images/filaments/bambu-10101.png"
     purchase_url: https://us.store.bambulab.com/search?q=10101
     remaining_gross_g: 1230
-    spares: 0
+    spares: 1
 
   - name: Black PETG
     color_family: Black
@@ -67,7 +67,7 @@ filaments:
     image: "/images/filaments/bambu-10100.png"
     purchase_url: https://us.store.bambulab.com/search?q=10100
     remaining_gross_g: 1000
-    spares: 0
+    spares: 1
 
   - name: Beige
     color_family: Tan
@@ -106,7 +106,7 @@ filaments:
     hex: 0056B8
     image: "/images/filaments/bambu-10604.png"
     purchase_url: https://us.store.bambulab.com/search?q=10604
-    remaining_gross_g: 1000
+    remaining_gross_g: 1005
     spares: 0
 
   - name: Marine Blue Matte
@@ -146,7 +146,7 @@ filaments:
     hex: 60A4E8
     image: "/images/filaments/bambu-13904.png"
     purchase_url: https://us.store.bambulab.com/search?q=13904
-    remaining_gross_g: 1000
+    remaining_gross_g: 871
     spares: 0
 
   - name: Brown
@@ -158,6 +158,16 @@ filaments:
     purchase_url: https://us.store.bambulab.com/search?q=10800
     remaining_gross_g: 0
     spares: 1
+
+  - name: Cocoa Brown
+    color_family: Orange
+    sku: 10802
+    material: "PLA Basic"
+    hex: 6F5034
+    image: "/images/filaments/bambu-10802.png"
+    purchase_url: https://us.store.bambulab.com/search?q=10802
+    remaining_gross_g: 1250
+    spares: 0
 
   - name: Cyan
     color_family: Blue
@@ -176,7 +186,8 @@ filaments:
     hex: E4BD68
     image: "/images/filaments/bambu-10401.png"
     purchase_url: https://us.store.bambulab.com/search?q=10401
-    remaining_gross_g: 0
+    remaining_gross_g: 789
+    spool_tare_g: 167        # Printed a hex spool
     spares: 1
 
   - name: Gold (Silk+)
@@ -206,8 +217,8 @@ filaments:
     hex: D1D3D5
     image: "/images/filaments/bambu-10104.png"
     purchase_url: https://us.store.bambulab.com/search?q=10104
-    remaining_gross_g: 0
-    spares: 1
+    remaining_gross_g: 1250
+    spares: 0
 
   - name: Charcoal
     color_family: Gray
@@ -226,8 +237,8 @@ filaments:
     hex: EC008C
     image: "/images/filaments/bambu-10202.png"
     purchase_url: https://us.store.bambulab.com/search?q=10202
-    remaining_gross_g: 0
-    spares: 1
+    remaining_gross_g: 1250
+    spares: 0
 
   - name: Mandarin Orange
     color_family: Orange
@@ -256,7 +267,7 @@ filaments:
     hex: F55A74
     image: "/images/filaments/bambu-10203.png"
     purchase_url: https://us.store.bambulab.com/search?q=10203
-    remaining_gross_g: 1000
+    remaining_gross_g: 573
     spares: 0
 
   - name: Iron Gray Metallic
@@ -286,7 +297,8 @@ filaments:
     hex: 5E43B7
     image: "/images/filaments/bambu-10700.png"
     purchase_url: https://us.store.bambulab.com/search?q=10700
-    remaining_gross_g: 1000
+    remaining_gross_g: 1110
+    spool_tare_g: 167        # Printed a hex spool
     spares: 0
 
   - name: Candy Red
@@ -327,8 +339,8 @@ filaments:
     hex: F7F3F0
     image: "/images/filaments/bambu-13103.png"
     purchase_url: https://us.store.bambulab.com/search?q=13103
-    remaining_gross_g: 306
-    spares: 1
+    remaining_gross_g: 1250
+    spares: 0
 
   - name: Matte Lemon Yellow
     color_family: Yellow
@@ -348,8 +360,8 @@ filaments:
     hex: F4EE2A
     image: "/images/filaments/bambu-10402.png"
     purchase_url: https://us.store.bambulab.com/search?q=10402
-    remaining_gross_g: 545
-    spares: 1
+    remaining_gross_g: 1000
+    spares: 4
 
   - name: Mistletoe Green
     color_family: Green
@@ -398,7 +410,28 @@ filaments:
     hex: 9D2235
     image: "/images/filaments/bambu-10205.png"
     purchase_url: https://us.store.bambulab.com/search?q=10205
-    remaining_gross_g: 1000
+    remaining_gross_g: 1045
+    spool_tare_g: 167        # Printed a hex spool
+    spares: 0
+
+  - name: Teal
+    color_family: Blue
+    sku: 13612
+    material: "PLA Translucent"
+    hex: 009FA1
+    image: "/images/filaments/bambu-13612.png"
+    purchase_url: https://us.store.bambulab.com/search?q=13612
+    remaining_gross_g: 1250
+    spares: 0
+
+  - name: Navy Blue
+    color_family: Blue
+    sku: 30604
+    material: "PETG"
+    hex: 0086D6
+    image: "/images/filaments/bambu-30604.png"
+    purchase_url: https://us.store.bambulab.com/search?q=30604
+    remaining_gross_g: 1250
     spares: 0
 ---
 
@@ -406,10 +439,7 @@ filaments:
 
 ## Buy
 
-- extra spools
-- puck light for Spaceship Earth
 - PLA Wood
-- Indigo purple
 
 ## Print
 
